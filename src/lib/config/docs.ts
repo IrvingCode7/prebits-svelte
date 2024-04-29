@@ -222,13 +222,7 @@ export const docsConfig: DocsConfig = {
 					href: '/docs/components/menubar',
 					items: []
 				},
-				// {
-				//   title: "Navigation Menu",
-				//   href: "#",
-				//   label: "Soon",
-				//   disabled: true,
-				//   items: []
-				// },
+
 				{
 					title: 'Pagination',
 					href: '/docs/components/pagination',
@@ -314,13 +308,7 @@ export const docsConfig: DocsConfig = {
 					href: '/docs/components/textarea',
 					items: []
 				},
-				// {
-				//   title: "Toast",
-				//   href: "#",
-				//   label: "Soon",
-				//   disabled: true,
-				//   items: []
-				// },
+
 				{
 					title: 'Toggle',
 					href: '/docs/components/toggle',

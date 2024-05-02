@@ -1,14 +1,19 @@
 <script lang="ts">
-	import { Accordion as AccordionPrimitive } from "bits-ui";
-	import { cn } from "$lib/utils.js";
-
-	type $$Props = AccordionPrimitive.ItemProps;
-
-	let className: $$Props["class"] = undefined;
+	import { type ItemProps, accordionVariants } from './index.js';
+	import { Accordion as AccordionPrimitive } from 'bits-ui';
+	import { cn } from '$lib/utils';
+	type $$Props = ItemProps;
+	let itemVariant: $$Props['itemVariant'] = undefined;
+	let className: $$Props['class'] = undefined;
+	export let value: $$Props['value'];
+	export { itemVariant as variant };
 	export { className as class };
-	export let value: $$Props["value"];
 </script>
 
-<AccordionPrimitive.Item {value} class={cn("border-b", className)} {...$$restProps}>
+<AccordionPrimitive.Item
+	{value}
+	{...$$restProps}
+	class={cn(accordionVariants({ itemVariant, className }))}
+>
 	<slot />
 </AccordionPrimitive.Item>

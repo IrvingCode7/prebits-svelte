@@ -5,6 +5,6 @@
 		class="mx-auto flex w-full basis-full flex-nowrap items-center px-4 md:px-8 lg:max-w-[90rem]"
 		aria-label="Global"
 	>
-		<img src="/logo.svg" alt="prebits svelte logo" class="h-6" />
+		<img src="/logo.svg" alt="prebits svelte logo" class="h-8" />
 	</nav>
 </header>

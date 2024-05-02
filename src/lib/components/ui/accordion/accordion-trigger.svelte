@@ -1,28 +1,38 @@
 <script lang="ts">
-	import { Accordion as AccordionPrimitive } from "bits-ui";
-	import ChevronDown from "svelte-radix/ChevronDown.svelte";
-	import { cn } from "$lib/utils.js";
-
-	type $$Props = AccordionPrimitive.TriggerProps;
+	import { type TriggerProps, accordionVariants } from './index.js';
+	import { Accordion as AccordionPrimitive } from 'bits-ui';
+	import { cn } from '$lib/utils';
+	import { ChevronDown, ChevronUp, Minus, Plus } from 'svelte-radix';
+	type $$Props = TriggerProps;
 	type $$Events = AccordionPrimitive.TriggerEvents;
-
-	let className: $$Props["class"] = undefined;
-	export let level: AccordionPrimitive.HeaderProps["level"] = 3;
+	let className: $$Props['class'] = undefined;
+	let triggerVariant: $$Props['triggerVariant'] = 'default';
+	export let level: AccordionPrimitive.HeaderProps['level'] = 3;
+	export { triggerVariant as variant };
 	export { className as class };
 </script>
 
-<AccordionPrimitive.Header {level} class="flex">
+<AccordionPrimitive.Header {level}>
 	<AccordionPrimitive.Trigger
-		class={cn(
-			"flex flex-1 items-center justify-between py-4 text-sm font-medium transition-all hover:underline [&[data-state=open]>svg]:rotate-180",
-			className
-		)}
+		class={cn(accordionVariants({ triggerVariant, className }))}
 		{...$$restProps}
 		on:click
 	>
-		<slot />
-		<ChevronDown
-			class="h-4 w-4 shrink-0 text-muted-foreground transition-transform duration-200"
-		/>
+		{#if triggerVariant === 'default'}
+			<Plus class="plus block size-3.5" />
+			<Minus class="minus hidden size-3.5" />
+
+			<slot />
+		{:else if triggerVariant === 'arrowStretched'}
+			<slot />
+			<ChevronDown class="down block size-3.5" />
+			<ChevronUp class="up hidden size-3.5" />
+		{:else if triggerVariant === 'arrow'}
+			<ChevronDown class="down block size-3.5" />
+			<ChevronUp class="up hidden size-3.5" />
+			<slot />
+		{:else}
+			<slot />
+		{/if}
 	</AccordionPrimitive.Trigger>
 </AccordionPrimitive.Header>

@@ -52,11 +52,7 @@ export const docsConfig: DocsConfig = {
 					href: '/docs/components-json',
 					items: []
 				},
-				{
-					title: 'Theming',
-					href: '/docs/theming',
-					items: []
-				},
+
 				{
 					title: 'Dark mode',
 					href: '/docs/dark-mode',
@@ -222,13 +218,7 @@ export const docsConfig: DocsConfig = {
 					href: '/docs/components/menubar',
 					items: []
 				},
-				// {
-				//   title: "Navigation Menu",
-				//   href: "#",
-				//   label: "Soon",
-				//   disabled: true,
-				//   items: []
-				// },
+
 				{
 					title: 'Pagination',
 					href: '/docs/components/pagination',
@@ -314,13 +304,7 @@ export const docsConfig: DocsConfig = {
 					href: '/docs/components/textarea',
 					items: []
 				},
-				// {
-				//   title: "Toast",
-				//   href: "#",
-				//   label: "Soon",
-				//   disabled: true,
-				//   items: []
-				// },
+
 				{
 					title: 'Toggle',
 					href: '/docs/components/toggle',

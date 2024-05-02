@@ -27,6 +27,7 @@ export type Metadata = {
 export type FrontMatter = {
 	title: string;
 	description: string;
+	slug: string;
 	component: boolean;
 	source: string;
 	external?: {

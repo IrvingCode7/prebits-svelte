@@ -101,7 +101,10 @@
 	});
 </script>
 
-<div class="space-y-2">
-	<p class="font-medium">On This Page</p>
+<div
+	class=" fixed bottom-0 end-0 top-0 z-[59] hidden w-64 transform overflow-y-auto bg-white px-4 pb-10 transition-all duration-300 [--auto-close:xl] dark:bg-neutral-900 sm:px-8 sm:pt-7 xl:end-[max(0px,calc(50%-45rem))] xl:z-10 xl:block xl:translate-x-0 [&::-webkit-scrollbar-thumb]:rounded-full [&::-webkit-scrollbar-thumb]:bg-gray-300 dark:[&::-webkit-scrollbar-thumb]:bg-neutral-500 [&::-webkit-scrollbar-track]:bg-gray-100 dark:[&::-webkit-scrollbar-track]:bg-neutral-700 [&::-webkit-scrollbar]:w-2"
+>
+	<h5 class="mb-3 text-sm font-semibold text-gray-800 dark:text-neutral-300">On this page</h5>
+
 	<Tree tree={filteredHeadingsList} activeItem={$activeItem} />
 </div>

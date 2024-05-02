@@ -18,7 +18,7 @@ export const accordionVariants = tv({
 				' disabled:pointer-events-none [&[data-state=open]>.plus]:hidden [&[data-state=open]>.minus]:block [&[data-state=open]]:text-blue-600',
 			arrow:
 				' disabled:pointer-events-none [&[data-state=open]]:text-blue-600  [&[data-state=open]>.down]:hidden [&[data-state=open]>.up]:block',
-			noArrow: ' disabled:pointer-events-none [&[data-state=open]]:text-blue-600 ',
+			noArrow: ' disabled:pointer-events-none [&[data-state=open]]:text-blue-600 py-3',
 			arrowStretched:
 				' justify-between disabled:pointer-events-none  [&[data-state=open]]:text-blue-600  [&[data-state=open]>.down]:hidden [&[data-state=open]>.up]:block'
 		},

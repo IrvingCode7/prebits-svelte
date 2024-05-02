@@ -2,5 +2,5 @@
 	import { Button } from '$lib/components/ui/button';
 </script>
 
-<Button>Click me</Button>
+<Button color="teal" size="sm" variant="outline">Click me</Button>
 asd

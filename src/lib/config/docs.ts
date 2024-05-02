@@ -52,11 +52,7 @@ export const docsConfig: DocsConfig = {
 					href: '/docs/components-json',
 					items: []
 				},
-				{
-					title: 'Theming',
-					href: '/docs/theming',
-					items: []
-				},
+
 				{
 					title: 'Dark mode',
 					href: '/docs/dark-mode',

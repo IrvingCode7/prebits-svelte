@@ -25,6 +25,7 @@
 
 <input
 	class={cn(inputVariants({ variant, size, pilled }),className
+	
 	)}
 	bind:value
 	{readonly}

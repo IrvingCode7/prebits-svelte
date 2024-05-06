@@ -9,6 +9,7 @@
 	let className: $$Props['class'] = undefined;
 	export let variant: $$Props['variant'] = undefined;
 	export let color: $$Props['color'] = undefined;
+	export let pilled: $$Props['pilled'] = undefined;
 	export let size: $$Props['size'] = undefined;
 	export let builders: $$Props['builders'] = [];
 	export { className as class };
@@ -16,7 +17,7 @@
 
 <ButtonPrimitive.Root
 	{builders}
-	class={cn(buttonVariants({ variant, size, color, className }))}
+	class={cn(buttonVariants({ variant, size, color, pilled, className }))}
 	type="button"
 	{...$$restProps}
 	on:click

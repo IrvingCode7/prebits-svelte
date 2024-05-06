@@ -3,7 +3,7 @@
 	import { Accordion as AccordionPrimitive } from 'bits-ui';
 	import { cn } from '$lib/utils';
 	type $$Props = ItemProps;
-	let itemVariant: $$Props['itemVariant'] = undefined;
+	let itemVariant: $$Props['variant'] = undefined;
 	let className: $$Props['class'] = undefined;
 	export let value: $$Props['value'];
 	export { itemVariant as variant };

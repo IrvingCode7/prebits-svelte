@@ -13,7 +13,10 @@ const buttonVariants = tv({
 			soft: 'dark:hover:bg-blue-900 dark:text-blue-400',
 			white:
 				'font-medium shadow-sm dark:border-neutral-700 dark:text-white dark:hover:bg-neutral-800',
-			link: 'dark:text-blue-500 dark:hover:text-blue-400'
+			link: 'border-transparent dark:text-blue-500 dark:hover:text-blue-400',
+		},
+		pilled : {
+			true : 'rounded-full'
 		},
 		color: {
 			gray: '',
@@ -99,7 +102,7 @@ const buttonVariants = tv({
 		{
 			variant: 'soft',
 			color: 'white',
-			class: 'border-transparent bg-white/10 text-white hover:bg-white/20'
+			class: 'border-transparent bg-white/10 text-gray-500 hover:bg-white/20'
 		},
 		{
 			variant: 'outline',
@@ -159,6 +162,12 @@ const buttonVariants = tv({
 				' border-transparent text-yellow-500 hover:bg-yellow-100 hover:text-yellow-800 dark:hover:bg-yellow-800/30 dark:hover:text-yellow-400'
 		},
 		{
+			variant: 'ghost',
+			color: 'white',
+			class:
+				'border-transparent text-gray-800 hover:bg-gray-100 dark:text-neutral-400 dark:hover:bg-neutral-800'
+		},
+		{
 			variant: 'white',
 			color: 'gray',
 			class:
@@ -209,10 +218,12 @@ const buttonVariants = tv({
 type Variant = VariantProps<typeof buttonVariants>['variant'];
 type Size = VariantProps<typeof buttonVariants>['size'];
 type Color = VariantProps<typeof buttonVariants>['color'];
+type Pilled = VariantProps<typeof buttonVariants>['pilled'];
 type Props = ButtonPrimitive.Props & {
 	variant?: Variant;
 	size?: Size;
 	color?: Color;
+	pilled?: Pilled;
 };
 
 type Events = ButtonPrimitive.Events;

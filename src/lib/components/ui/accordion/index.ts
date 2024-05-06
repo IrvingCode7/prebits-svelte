@@ -11,7 +11,7 @@ export const accordionVariants = tv({
 			bordered:
 				'bg-white border -mt-px first:rounded-t-lg last:rounded-b-lg dark:bg-neutral-800 dark:border-neutral-700',
 			activeBordered:
-				'bg-white [&[data-state=open]]:border [&[data-state=open]]:rounded-lg   dark:bg-neutral-800 dark:border-neutral-700'
+				'bg-white [&[data-state=open]]:border [&[data-state=open]]:rounded-lg dark:bg-neutral-800 dark:border-neutral-700'
 		},
 		triggerVariant: {
 			default:
@@ -44,11 +44,11 @@ type ItemVariant = VariantProps<typeof accordionVariants>['itemVariant'];
 type TriggerVariant = VariantProps<typeof accordionVariants>['triggerVariant'];
 
 type ItemProps = AccordionPrimitive.ItemProps & {
-	itemVariant?: ItemVariant;
+	variant?: ItemVariant;
 };
 
 type TriggerProps = AccordionPrimitive.TriggerProps & {
-	triggerVariant?: TriggerVariant;
+	variant?: TriggerVariant;
 };
 const Root = AccordionPrimitive.Root;
 export {

@@ -208,5 +208,113 @@ export const Index = {
 			files: ['./input/input-underline.svelte'],
 			raw: () => import('./input/input-urderline.svelte?raw').then((m) => m.default)
 		},
+	},
+	label: {
+		'label': {
+			name: 'label',
+			type: 'components:example',
+			registryDependencies: ['label'],
+			component: () => import('./label/label.svelte').then((m) => m.default),
+			files: ['./label/label.svelte'],
+			raw: () => import('./label/label.svelte?raw').then((m) => m.default)
+		},
+	},
+	sonner: {
+		'sonner-basic': {
+			name: 'sonner',
+			type: 'components:example',
+			registryDependencies: ['label'],
+			component: () => import('./sonner/sonner-basic.svelte').then((m) => m.default),
+			files: ['./sonner/sonner-basic.svelte'],
+			raw: () => import('./sonner/sonner-basic.svelte?raw').then((m) => m.default)
+		},
+	},
+	skeleton: {
+		'skeleton-basic': {
+			name: 'skeleton',
+			type: 'components:example',
+			registryDependencies: ['skeleton'],
+			component: () => import('./skeleton/skeleton-basic.svelte').then((m) => m.default),
+			files: ['./skeleton/skeleton-basic.svelte'],
+			raw: () => import('./skeleton/skeleton-basic.svelte?raw').then((m) => m.default)
+		},
+		'skeleton-animate': {
+			name: 'skeleton',
+			type: 'components:example',
+			registryDependencies: ['skeleton'],
+			component: () => import('./skeleton/skeleton-animate.svelte').then((m) => m.default),
+			files: ['./skeleton/skeleton-animate.svelte'],
+			raw: () => import('./skeleton/skeleton-animate.svelte?raw').then((m) => m.default)
+		},
+	},
+	tooltip: {
+		'tooltip': {
+			name: 'tooltip',
+			type: 'components:example',
+			registryDependencies: ['tooltip'],
+			component: () => import('./tooltip/tooltip.svelte').then((m) => m.default),
+			files: ['./tooltip/tooltip.svelte'],
+			raw: () => import('./tooltip/tooltip.svelte?raw').then((m) => m.default)
+		},
+	},
+	popover: {
+		'popover': {
+			name: 'popover',
+			type: 'components:example',
+			registryDependencies: ['popover'],
+			component: () => import('./popover/popover.svelte').then((m) => m.default),
+			files: ['./popover/popover.svelte'],
+			raw: () => import('./popover/popover.svelte?raw').then((m) => m.default)
+		},
+	},
+	badge: {
+		'badge-solid': {
+			name: 'badge-solid',
+			type: 'components:example',
+			registryDependencies: ['badge'],
+			component: () => import('./badge/badge-solid.svelte').then((m) => m.default),
+			files: ['./badge/badge-solid.svelte'],
+			raw: () => import('./badge/badge-solid.svelte?raw').then((m) => m.default)
+		},
+		'badge-soft': {
+			name: 'badge-soft',
+			type: 'components:example',
+			registryDependencies: ['badge'],
+			component: () => import('./badge/badge-soft.svelte').then((m) => m.default),
+			files: ['./badge/badge-soft.svelte'],
+			raw: () => import('./badge/badge-soft.svelte?raw').then((m) => m.default)
+		},
+		'badge-outline': {
+			name: 'badge-outline',
+			type: 'components:example',
+			registryDependencies: ['badge'],
+			component: () => import('./badge/badge-outline.svelte').then((m) => m.default),
+			files: ['./badge/badge-outline.svelte'],
+			raw: () => import('./badge/badge-outline.svelte?raw').then((m) => m.default)
+		},
+		'badge-white': {
+			name: 'badge-white',
+			type: 'components:example',
+			registryDependencies: ['badge'],
+			component: () => import('./badge/badge-white.svelte').then((m) => m.default),
+			files: ['./badge/badge-white.svelte'],
+			raw: () => import('./badge/badge-white.svelte?raw').then((m) => m.default)
+		},
+		'badge-rounded': {
+			name: 'badge-rounded',
+			type: 'components:example',
+			registryDependencies: ['badge'],
+			component: () => import('./badge/badge-rounded.svelte').then((m) => m.default),
+			files: ['./badge/badge-rounded.svelte'],
+			raw: () => import('./badge/badge-rounded.svelte?raw').then((m) => m.default)
+		},
+		'badge-width': {
+			name: 'badge-width',
+			type: 'components:example',
+			registryDependencies: ['badge'],
+			component: () => import('./badge/badge-width.svelte').then((m) => m.default),
+			files: ['./badge/badge-width.svelte'],
+			raw: () => import('./badge/badge-width.svelte?raw').then((m) => m.default)
+		},
 	}
 };

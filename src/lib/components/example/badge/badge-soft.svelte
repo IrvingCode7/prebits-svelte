@@ -5,6 +5,6 @@
 
 {#each colors as color}
     <div>
-        <Badge variant='soft' rounded max_width color={color}>badge</Badge>
+        <Badge variant='soft' rounded max_width color={color}>  badge</Badge>
     </div>
 {/each}

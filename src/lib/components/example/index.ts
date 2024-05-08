@@ -316,5 +316,146 @@ export const Index = {
 			files: ['./badge/badge-width.svelte'],
 			raw: () => import('./badge/badge-width.svelte?raw').then((m) => m.default)
 		},
+		'badge-indicator': {
+			name: 'badge-indicator',
+			type: 'components:example',
+			registryDependencies: ['badge'],
+			component: () => import('./badge/badge-indicator.svelte').then((m) => m.default),
+			files: ['./badge/badge-indicator.svelte'],
+			raw: () => import('./badge/badge-indicator.svelte?raw').then((m) => m.default)
+		},
+		'badge-icons': {
+			name: 'badge-icons',
+			type: 'components:example',
+			registryDependencies: ['badge'],
+			component: () => import('./badge/badge-icons.svelte').then((m) => m.default),
+			files: ['./badge/badge-icons.svelte'],
+			raw: () => import('./badge/badge-icons.svelte?raw').then((m) => m.default)
+		},
+		'badge-button': {
+			name: 'badge-button',
+			type: 'components:example',
+			registryDependencies: ['badge'],
+			component: () => import('./badge/badge-button.svelte').then((m) => m.default),
+			files: ['./badge/badge-button.svelte'],
+			raw: () => import('./badge/badge-button.svelte?raw').then((m) => m.default)
+		},
+		'badge-avatar': {
+			name: 'badge-avatar',
+			type: 'components:example',
+			registryDependencies: ['badge'],
+			component: () => import('./badge/badge-avatar.svelte').then((m) => m.default),
+			files: ['./badge/badge-avatar.svelte'],
+			raw: () => import('./badge/badge-avatar.svelte?raw').then((m) => m.default)
+		},
+		'button-with-badge': {
+			name: 'button-with-badge',
+			type: 'components:example',
+			registryDependencies: ['badge'],
+			component: () => import('./badge/button-with-badge.svelte').then((m) => m.default),
+			files: ['./badge/button-with-badge.svelte'],
+			raw: () => import('./badge/button-with-badge.svelte?raw').then((m) => m.default)
+		},
+		'badge-positioned': {
+			name: 'badge-positioned',
+			type: 'components:example',
+			registryDependencies: ['badge'],
+			component: () => import('./badge/badge-positioned.svelte').then((m) => m.default),
+			files: ['./badge/badge-positioned.svelte'],
+			raw: () => import('./badge/badge-positioned.svelte?raw').then((m) => m.default)
+		},
+		'badge-profile': {
+			name: 'badge-profile',
+			type: 'components:example',
+			registryDependencies: ['badge'],
+			component: () => import('./badge/badge-profile.svelte').then((m) => m.default),
+			files: ['./badge/badge-profile.svelte'],
+			raw: () => import('./badge/badge-profile.svelte?raw').then((m) => m.default)
+		},
+		'badge-animate': {
+			name: 'badge-animate',
+			type: 'components:example',
+			registryDependencies: ['badge'],
+			component: () => import('./badge/badge-animate.svelte').then((m) => m.default),
+			files: ['./badge/badge-animate.svelte'],
+			raw: () => import('./badge/badge-animate.svelte?raw').then((m) => m.default)
+		},
+	},
+	breadcrumb: {
+		'breadcrumb': {
+			name: 'breadcrumb',
+			type: 'components:example',
+			registryDependencies: ['breadcrumb'],
+			component: () => import('./breadcrumb/breadcrumb.svelte').then((m) => m.default),
+			files: ['./breadcrumb/breadcrumb.svelte'],
+			raw: () => import('./breadcrumb/breadcrumb.svelte?raw').then((m) => m.default)
+		},
+		'breadcrumb-separator': {
+			name: 'breadcrumb-separator',
+			type: 'components:example',
+			registryDependencies: ['breadcrumb'],
+			component: () => import('./breadcrumb/breadcrumb-separator.svelte').then((m) => m.default),
+			files: ['./breadcrumb/breadcrumb-separator.svelte'],
+			raw: () => import('./breadcrumb/breadcrumb-separator.svelte?raw').then((m) => m.default)
+		},
+		'breadcrumb-dropdown': {
+			name: 'breadcrumb-dropdown',
+			type: 'components:example',
+			registryDependencies: ['breadcrumb'],
+			component: () => import('./breadcrumb/breadcrumb-dropdown.svelte').then((m) => m.default),
+			files: ['./breadcrumb/breadcrumb-dropdown.svelte'],
+			raw: () => import('./breadcrumb/breadcrumb-dropdown.svelte?raw').then((m) => m.default)
+		},
+		'breadcrumb-collapse': {
+			name: 'breadcrumb-collapse',
+			type: 'components:example',
+			registryDependencies: ['breadcrumb'],
+			component: () => import('./breadcrumb/breadcrumb-collapse.svelte').then((m) => m.default),
+			files: ['./breadcrumb/breadcrumb-collapse.svelte'],
+			raw: () => import('./breadcrumb/breadcrumb-collapse.svelte?raw').then((m) => m.default)
+		},
+		'breadcrumb-link': {
+			name: 'breadcrumb-link',
+			type: 'components:example',
+			registryDependencies: ['breadcrumb'],
+			component: () => import('./breadcrumb/breadcrumb-link.svelte').then((m) => m.default),
+			files: ['./breadcrumb/breadcrumb-link.svelte'],
+			raw: () => import('./breadcrumb/breadcrumb-link.svelte?raw').then((m) => m.default)
+		},
+		'breadcrumb-responsive': {
+			name: 'breadcrumb-responsive',
+			type: 'components:example',
+			registryDependencies: ['breadcrumb'],
+			component: () => import('./breadcrumb/breadcrumb-responsive.svelte').then((m) => m.default),
+			files: ['./breadcrumb/breadcrumb-responsive.svelte'],
+			raw: () => import('./breadcrumb/breadcrumb-responsive.svelte?raw').then((m) => m.default)
+		},
+	},
+	calendar: {
+		'calendar': {
+			name: 'calendar',
+			type: 'components:example',
+			registryDependencies: ['calendar'],
+			component: () => import('./calendar/calendar.svelte').then((m) => m.default),
+			files: ['./calendar/calendar.svelte'],
+			raw: () => import('./calendar/calendar.svelte?raw').then((m) => m.default)
+		},
+		'calendar-form': {
+			name: 'calendar-form',
+			type: 'components:example',
+			registryDependencies: ['calendar'],
+			component: () => import('./calendar/calendar-form.svelte').then((m) => m.default),
+			files: ['./calendar/calendar-form.svelte'],
+			raw: () => import('./calendar/calendar-form.svelte?raw').then((m) => m.default)
+		},
+		'calendar-avanced': {
+			name: 'calendar-avanced',
+			type: 'components:example',
+			registryDependencies: ['calendar'],
+			component: () => import('./calendar/calendar-avanced.svelte').then((m) => m.default),
+			files: ['./calendar/calendar-avanced.svelte'],
+			raw: () => import('./calendar/calendar-avanced.svelte?raw').then((m) => m.default)
+		},
 	}
+
 };

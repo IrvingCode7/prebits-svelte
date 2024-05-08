@@ -3,13 +3,13 @@ import { type VariantProps, tv } from "tailwind-variants";
 
 export { default as Badge } from "./badge.svelte";
 export const badgeVariants = tv({
-	base: "inline-flex select-none items-center rounded-md border gap-x-1.5 py-1.5 px-3 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2",
+	base: "inline-flex select-none items-center rounded-md border gap-x-1.5 py-1.5 px-4 text-sm font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2",
 	variants : {
 		variant : {
 			solid : 'dark:bg-white dark:text-neutral-800',
 			soft : 'bg-gray-500 text-white',
             outline : 'text-gray-800 dark:border-neutral-200 dark:text-white',
-			White : 'rounded-md border border-gray-200 text-gray-800 shadow-sm dark:bg-neutral-900 dark:border-neutral-700 dark:text-white',
+			White : 'rounded-md border border-gray-200 text-gray-700 shadow-sm dark:bg-neutral-900 dark:border-neutral-700 dark:text-white',
 		},
         
 		color: {
@@ -27,9 +27,6 @@ export const badgeVariants = tv({
         max_width : {
             true : 'max-w-40 truncate whitespace-nowrap inline-block'
         },
-        indicator : {
-            true : "size-1.5 inline-block rounded-full bg-blue-800 dark:bg-blue-500"
-        }
     },
     compoundVariants:[
          {
@@ -100,17 +97,12 @@ export const badgeVariants = tv({
         {
             variant: 'soft',
             color: 'gray',
-            class: 'bg-gray-500 text-white max-w-40 truncate whitespace-nowrap inline-block'
+            class: 'bg-gray-500 text-white max-w-40 whitespace-nowrap inline-block'
         },
         {
             variant: 'soft',
             color: 'default',
             class: 'bg-gray-100 text-gray-800 dark:bg-white/10 dark:text-white'
-        },
-        {
-            variant: 'soft',
-            color: 'white',
-            class: 'bg-white/10 text-white'
         },
         {
             variant: 'soft',
@@ -135,7 +127,7 @@ export const badgeVariants = tv({
         {
             variant: 'soft',
             color: 'white',
-            class: 'bg-white/10 text-gray-500'
+            class: 'bg-gray-100 text-gray-500'
         },
     ]
 });

@@ -456,6 +456,71 @@ export const Index = {
 			files: ['./calendar/calendar-avanced.svelte'],
 			raw: () => import('./calendar/calendar-avanced.svelte?raw').then((m) => m.default)
 		},
-	}
-
+	},
+	card: {
+		'card-basic': {
+			name: 'card-basic',
+			type: 'components:example',
+			registryDependencies: ['card'],
+			component: () => import('./card/card-basic.svelte').then((m) => m.default),
+			files: ['./card/card-basic.svelte'],
+			raw: () => import('./card/card-basic.svelte?raw').then((m) => m.default)
+		},
+		'card-body': {
+			name: 'card-body',
+			type: 'components:example',
+			registryDependencies: ['card'],
+			component: () => import('./card/card-body.svelte').then((m) => m.default),
+			files: ['./card/card-body.svelte'],
+			raw: () => import('./card/card-body.svelte?raw').then((m) => m.default)
+		},
+		'card-simple': {
+			name: 'card-simple',
+			type: 'components:example',
+			registryDependencies: ['card'],
+			component: () => import('./card/card-simple.svelte').then((m) => m.default),
+			files: ['./card/card-simple.svelte'],
+			raw: () => import('./card/card-simple.svelte?raw').then((m) => m.default)
+		},
+		'card-header': {
+			name: 'card-header',
+			type: 'components:example',
+			registryDependencies: ['card'],
+			component: () => import('./card/card-header.svelte').then((m) => m.default),
+			files: ['./card/card-header.svelte'],
+			raw: () => import('./card/card-header.svelte?raw').then((m) => m.default)
+		},
+		'card-footer': {
+			name: 'card-footer',
+			type: 'components:example',
+			registryDependencies: ['card'],
+			component: () => import('./card/card-footer.svelte').then((m) => m.default),
+			files: ['./card/card-footer.svelte'],
+			raw: () => import('./card/card-footer.svelte?raw').then((m) => m.default)
+		},
+		'card-small': {
+			name: 'card-small',
+			type: 'components:example',
+			registryDependencies: ['card'],
+			component: () => import('./card/card-small.svelte').then((m) => m.default),
+			files: ['./card/card-small.svelte'],
+			raw: () => import('./card/card-small.svelte?raw').then((m) => m.default)
+		},
+		'card-large': {
+			name: 'card-large',
+			type: 'components:example',
+			registryDependencies: ['card'],
+			component: () => import('./card/card-large.svelte').then((m) => m.default),
+			files: ['./card/card-large.svelte'],
+			raw: () => import('./card/card-large.svelte?raw').then((m) => m.default)
+		},
+		'card-nav': {
+			name: 'card-nav',
+			type: 'components:example',
+			registryDependencies: ['card'],
+			component: () => import('./card/card-nav.svelte').then((m) => m.default),
+			files: ['./card/card-nav.svelte'],
+			raw: () => import('./card/card-nav.svelte?raw').then((m) => m.default)
+		},
+	},
 };

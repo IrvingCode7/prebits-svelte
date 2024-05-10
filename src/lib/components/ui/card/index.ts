@@ -4,6 +4,24 @@ import Description from "./card-description.svelte";
 import Footer from "./card-footer.svelte";
 import Header from "./card-header.svelte";
 import Title from "./card-title.svelte";
+import { type VariantProps, tv } from 'tailwind-variants';
+import type { HTMLAttributes } from "svelte/elements";
+
+export const cardVariants = tv({
+	base: '',
+	variants:{
+		contentVariants :{
+			default:'flex flex-colshadow-sm rounded-xl dark:bg-neutral-900 dark:border-neutral-700 dark:text-neutral-400'
+		},
+	}
+})
+
+type ContentVariant = VariantProps<typeof cardVariants>['contentVariants'];
+
+export type ContentProps = HTMLAttributes<HTMLDivElement> & {
+	variant?: ContentVariant;
+};
+
 
 export {
 	Root,

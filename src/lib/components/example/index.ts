@@ -522,5 +522,157 @@ export const Index = {
 			files: ['./card/card-nav.svelte'],
 			raw: () => import('./card/card-nav.svelte?raw').then((m) => m.default)
 		},
+		'card-images': {
+			name: 'card-images',
+			type: 'components:example',
+			registryDependencies: ['card'],
+			component: () => import('./card/card-images.svelte').then((m) => m.default),
+			files: ['./card/card-images.svelte'],
+			raw: () => import('./card/card-images.svelte?raw').then((m) => m.default)
+		},
+		'card-image-bottom': {
+			name: 'card-image-bottom',
+			type: 'components:example',
+			registryDependencies: ['card'],
+			component: () => import('./card/card-image-bottom.svelte').then((m) => m.default),
+			files: ['./card/card-image-bottom.svelte'],
+			raw: () => import('./card/card-image-bottom.svelte?raw').then((m) => m.default)
+		},
+		'card-overlays': {
+			name: 'card-overlays',
+			type: 'components:example',
+			registryDependencies: ['card'],
+			component: () => import('./card/card-overlays.svelte').then((m) => m.default),
+			files: ['./card/card-overlays.svelte'],
+			raw: () => import('./card/card-overlays.svelte?raw').then((m) => m.default)
+		},
+		'card-animation': {
+			name: 'card-animation',
+			type: 'components:example',
+			registryDependencies: ['card'],
+			component: () => import('./card/card-animation.svelte').then((m) => m.default),
+			files: ['./card/card-animation.svelte'],
+			raw: () => import('./card/card-animation.svelte?raw').then((m) => m.default)
+		},
+		'card-transition': {
+			name: 'card-transition',
+			type: 'components:example',
+			registryDependencies: ['card'],
+			component: () => import('./card/card-transition.svelte').then((m) => m.default),
+			files: ['./card/card-transition.svelte'],
+			raw: () => import('./card/card-transition.svelte?raw').then((m) => m.default)
+		},
+		'card-horizontal': {
+			name: 'card-horizontal',
+			type: 'components:example',
+			registryDependencies: ['card'],
+			component: () => import('./card/card-horizontal.svelte').then((m) => m.default),
+			files: ['./card/card-horizontal.svelte'],
+			raw: () => import('./card/card-horizontal.svelte?raw').then((m) => m.default)
+		},
+		'card-gruop': {
+			name: 'card-gruop',
+			type: 'components:example',
+			registryDependencies: ['card'],
+			component: () => import('./card/card-gruop.svelte').then((m) => m.default),
+			files: ['./card/card-gruop.svelte'],
+			raw: () => import('./card/card-gruop.svelte?raw').then((m) => m.default)
+		},
+		'card-border': {
+			name: 'card-border',
+			type: 'components:example',
+			registryDependencies: ['card'],
+			component: () => import('./card/card-border.svelte').then((m) => m.default),
+			files: ['./card/card-border.svelte'],
+			raw: () => import('./card/card-border.svelte?raw').then((m) => m.default)
+		},
+		'card-panel': {
+			name: 'card-panel',
+			type: 'components:example',
+			registryDependencies: ['card'],
+			component: () => import('./card/card-panel.svelte').then((m) => m.default),
+			files: ['./card/card-panel.svelte'],
+			raw: () => import('./card/card-panel.svelte?raw').then((m) => m.default)
+		},
+		'card-action': {
+			name: 'card-action',
+			type: 'components:example',
+			registryDependencies: ['card'],
+			component: () => import('./card/card-action.svelte').then((m) => m.default),
+			files: ['./card/card-action.svelte'],
+			raw: () => import('./card/card-action.svelte?raw').then((m) => m.default)
+		},
+		'card-alert': {
+			name: 'card-alert',
+			type: 'components:example',
+			registryDependencies: ['card'],
+			component: () => import('./card/card-alert.svelte').then((m) => m.default),
+			files: ['./card/card-alert.svelte'],
+			raw: () => import('./card/card-alert.svelte?raw').then((m) => m.default)
+		},
+		'card-center': {
+			name: 'card-center',
+			type: 'components:example',
+			registryDependencies: ['card'],
+			component: () => import('./card/card-center.svelte').then((m) => m.default),
+			files: ['./card/card-center.svelte'],
+			raw: () => import('./card/card-center.svelte?raw').then((m) => m.default)
+		},
+		'card-empty': {
+			name: 'card-empty',
+			type: 'components:example',
+			registryDependencies: ['card'],
+			component: () => import('./card/card-empty.svelte').then((m) => m.default),
+			files: ['./card/card-empty.svelte'],
+			raw: () => import('./card/card-empty.svelte?raw').then((m) => m.default)
+		},
+		'card-scroll': {
+			name: 'card-scroll',
+			type: 'components:example',
+			registryDependencies: ['card'],
+			component: () => import('./card/card-scroll.svelte').then((m) => m.default),
+			files: ['./card/card-scroll.svelte'],
+			raw: () => import('./card/card-scroll.svelte?raw').then((m) => m.default)
+		},
 	},
+	context_menu: {
+		'context-menu': {
+			name: 'context-menu',
+			type: 'components:example',
+			registryDependencies: ['context-menu'],
+			component: () => import('./context-menu/context-menu.svelte').then((m) => m.default),
+			files: ['./context-menu/context-menu.svelte'],
+			raw: () => import('./context-menu/context-menu.svelte?raw').then((m) => m.default)
+		},
+	},
+	date_picker: {
+		'date_picker': {
+			name: 'date_picker',
+			type: 'components:example',
+			registryDependencies: ['date_picker'],
+			component: () => import('./date-picker/date-picker.svelte').then((m) => m.default),
+			files: ['./date-picker/date-picker.svelte'],
+			raw: () => import('./date-picker/date-picker.svelte?raw').then((m) => m.default)
+		},
+	},
+	hover_card: {
+		'hover-card': {
+			name: 'hover-card',
+			type: 'components:example',
+			registryDependencies: ['hover-card'],
+			component: () => import('./hover-card/hover-card.svelte').then((m) => m.default),
+			files: ['./hover-card/hover-card.svelte'],
+			raw: () => import('./hover-card/hover-card.svelte?raw').then((m) => m.default)
+		},
+	},
+	range_calendar: {
+		'range-calendar': {
+			name: 'range-calendar',
+			type: 'components:example',
+			registryDependencies: ['range-calendar'],
+			component: () => import('./range-calendar/range-calendar.svelte').then((m) => m.default),
+			files: ['./range-calendar/range-calendar.svelte'],
+			raw: () => import('./range-calendar/range-calendar.svelte?raw').then((m) => m.default)
+		},
+	}
 };

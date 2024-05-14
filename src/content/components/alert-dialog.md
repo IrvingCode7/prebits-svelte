@@ -11,7 +11,7 @@ component: true
 
 <h2>Alert Dialog</h2>
 <p></p>
-<ComponentPreview type="alert-dialog" name="alertdialog" >
+<ComponentPreview type="alert_dialog" name="alert-dialog" >
 
 <div />
 

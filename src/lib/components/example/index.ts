@@ -83,7 +83,7 @@ export const Index = {
 			raw: () => import('./alert/alert-outline.svelte?raw').then((m) => m.default)
 		}
 	},
-	alertdialog: {
+	alert_dialog: {
 		'alert-dialog': {
 			name: 'alert-dialog',
 			type: 'components:example',
@@ -673,6 +673,34 @@ export const Index = {
 			component: () => import('./range-calendar/range-calendar.svelte').then((m) => m.default),
 			files: ['./range-calendar/range-calendar.svelte'],
 			raw: () => import('./range-calendar/range-calendar.svelte?raw').then((m) => m.default)
+		},
+	},
+	carousel: {
+		'carousel-basic': {
+			name: 'carousel-basic',
+			type: 'components:example',
+			registryDependencies: ['carousel'],
+			component: () => import('./carousel/carousel-basic.svelte').then((m) => m.default),
+			files: ['./carousel/carousel-basic.svelte'],
+			raw: () => import('./carousel/carousel-basic.svelte?raw').then((m) => m.default)
+		},
+		'carousel-pagination': {
+			name: 'carousel-pagination',
+			type: 'components:example',
+			registryDependencies: ['carousel'],
+			component: () => import('./carousel/carousel-pagination.svelte').then((m) => m.default),
+			files: ['./carousel/carousel-pagination.svelte'],
+			raw: () => import('./carousel/carousel-pagination.svelte?raw').then((m) => m.default)
+		},
+	},
+	menubar: {
+		'menu-bar': {
+			name: 'menu-bar',
+			type: 'components:example',
+			registryDependencies: ['menubar'],
+			component: () => import('./menubar/menu-bar.svelte').then((m) => m.default),
+			files: ['./menubar/menu-bar.svelte'],
+			raw: () => import('./menubar/menu-bar.svelte?raw').then((m) => m.default)
 		},
 	}
 };

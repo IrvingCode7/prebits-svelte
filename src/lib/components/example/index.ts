@@ -702,5 +702,119 @@ export const Index = {
 			files: ['./menubar/menu-bar.svelte'],
 			raw: () => import('./menubar/menu-bar.svelte?raw').then((m) => m.default)
 		},
+	},
+	avatar: {
+		'avatar': {
+			name: 'avatar',
+			type: 'components:example',
+			registryDependencies: ['avatar'],
+			component: () => import('./avatar/avatar.svelte').then((m) => m.default),
+			files: ['./avatar/avatar.svelte'],
+			raw: () => import('./avatar/avatar.svelte?raw').then((m) => m.default)
+		},
+		'avatar-rounded': {
+			name: 'avatar',
+			type: 'components:example',
+			registryDependencies: ['avatar'],
+			component: () => import('./avatar/avatar-rounded.svelte').then((m) => m.default),
+			files: ['./avatar/avatar-rounded.svelte'],
+			raw: () => import('./avatar/avatar-rounded.svelte?raw').then((m) => m.default)
+		},
+		'avatar-status': {
+			name: 'avatar-status',
+			type: 'components:example',
+			registryDependencies: ['avatar'],
+			component: () => import('./avatar/avatar-status.svelte').then((m) => m.default),
+			files: ['./avatar/avatar-status.svelte'],
+			raw: () => import('./avatar/avatar-status.svelte?raw').then((m) => m.default)
+		},
+		'avatar-rounded-status': {
+			name: 'avatar-rounded-status',
+			type: 'components:example',
+			registryDependencies: ['avatar'],
+			component: () => import('./avatar/avatar-rounded-status.svelte').then((m) => m.default),
+			files: ['./avatar/avatar-rounded-status.svelte'],
+			raw: () => import('./avatar/avatar-rounded-status.svelte?raw').then((m) => m.default)
+		},
+		'avatar-bottom-status': {
+			name: 'avatar-bottom-status',
+			type: 'components:example',
+			registryDependencies: ['avatar'],
+			component: () => import('./avatar/avatar-bottom-status.svelte').then((m) => m.default),
+			files: ['./avatar/avatar-bottom-status.svelte'],
+			raw: () => import('./avatar/avatar-bottom-status.svelte?raw').then((m) => m.default)
+		},
+		'avatar-bottom-rounded': {
+			name: 'avatar-bottom-rounded',
+			type: 'components:example',
+			registryDependencies: ['avatar'],
+			component: () => import('./avatar/avatar-bottom-rounded.svelte').then((m) => m.default),
+			files: ['./avatar/avatar-bottom-rounded.svelte'],
+			raw: () => import('./avatar/avatar-bottom-rounded.svelte?raw').then((m) => m.default)
+		},
+		'avatar-logo': {
+			name: 'avatar-logo',
+			type: 'components:example',
+			registryDependencies: ['avatar'],
+			component: () => import('./avatar/avatar-logo.svelte').then((m) => m.default),
+			files: ['./avatar/avatar-logo.svelte'],
+			raw: () => import('./avatar/avatar-logo.svelte?raw').then((m) => m.default)
+		},
+		'avatar-icon': {
+			name: 'avatar-icon',
+			type: 'components:example',
+			registryDependencies: ['avatar'],
+			component: () => import('./avatar/avatar-icon.svelte').then((m) => m.default),
+			files: ['./avatar/avatar-icon.svelte'],
+			raw: () => import('./avatar/avatar-icon.svelte?raw').then((m) => m.default)
+		},
+		'avatar-initials': {
+			name: 'avatar-initials',
+			type: 'components:example',
+			registryDependencies: ['avatar'],
+			component: () => import('./avatar/avatar-initials.svelte').then((m) => m.default),
+			files: ['./avatar/avatar-initials.svelte'],
+			raw: () => import('./avatar/avatar-initials.svelte?raw').then((m) => m.default)
+		},
+		'avatar-solid': {
+			name: 'avatar-solid',
+			type: 'components:example',
+			registryDependencies: ['avatar'],
+			component: () => import('./avatar/avatar-solid.svelte').then((m) => m.default),
+			files: ['./avatar/avatar-solid.svelte'],
+			raw: () => import('./avatar/avatar-solid.svelte?raw').then((m) => m.default)
+		},
+		'avatar-soft': {
+			name: 'avatar-soft',
+			type: 'components:example',
+			registryDependencies: ['avatar'],
+			component: () => import('./avatar/avatar-soft.svelte').then((m) => m.default),
+			files: ['./avatar/avatar-soft.svelte'],
+			raw: () => import('./avatar/avatar-soft.svelte?raw').then((m) => m.default)
+		},
+		'avatar-outline': {
+			name: 'avatar-outline',
+			type: 'components:example',
+			registryDependencies: ['avatar'],
+			component: () => import('./avatar/avatar-outline.svelte').then((m) => m.default),
+			files: ['./avatar/avatar-outline.svelte'],
+			raw: () => import('./avatar/avatar-outline.svelte?raw').then((m) => m.default)
+		},
+		'avatar-white': {
+			name: 'avatar-white',
+			type: 'components:example',
+			registryDependencies: ['avatar'],
+			component: () => import('./avatar/avatar-white.svelte').then((m) => m.default),
+			files: ['./avatar/avatar-white.svelte'],
+			raw: () => import('./avatar/avatar-white.svelte?raw').then((m) => m.default)
+		},
+		'avatar-tooltip': {
+			name: 'avatar-tooltip',
+			type: 'components:example',
+			registryDependencies: ['avatar'],
+			component: () => import('./avatar/avatar-tooltip.svelte').then((m) => m.default),
+			files: ['./avatar/avatar-tooltip.svelte'],
+			raw: () => import('./avatar/avatar-tooltip.svelte?raw').then((m) => m.default)
+		},
 	}
 };

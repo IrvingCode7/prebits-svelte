@@ -13,6 +13,7 @@ export const alertVariants = tv({
 			outline: 'bg-white border border-gray-200 shadow-lg'
 		},
 		color: {
+			black : '',
 			gray: '',
 			blue: '',
 			teal: '',
@@ -24,13 +25,18 @@ export const alertVariants = tv({
 	compoundVariants: [
 		{
 			variant: ['solid'],
-			color: ['gray', 'blue', 'teal', 'red', 'yellow'],
+			color: ['black','gray', 'blue', 'teal', 'red', 'yellow'],
 			class: 'text-white'
 		},
 		{
 			variant: 'solid',
 			color: 'gray',
 			class: 'bg-gray-500'
+		},
+		{
+			variant: 'solid',
+			color: 'black',
+			class: 'bg-gray-800'
 		},
 		{
 			variant: 'solid',
@@ -71,7 +77,7 @@ export const alertVariants = tv({
 		{
 			variant: 'soft',
 			color: 'gray',
-			class: 'bg-gray-50 border border-gray-200 text-gray-600'
+			class: 'bg-gray-100 border border-gray-200 text-gray-600'
 		},
 		{
 			variant: 'soft',
@@ -96,7 +102,7 @@ export const alertVariants = tv({
 		{
 			variant: 'soft',
 			color: 'white',
-			class: 'bg-white border border-white text-white'
+			class: 'bg-white border border-gray-200 text-gray-600'
 		},
 		{
 			variant: 'soft',

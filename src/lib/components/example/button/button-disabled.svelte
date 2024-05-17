@@ -7,7 +7,7 @@
 <div class="flex">
     {#each variants as variant}
         <div class="mr-2">
-            <Button variant={variant} color='blue'>{variant.toUpperCase()}</Button>
+            <Button variant={variant} color='blue' disabled>{variant.toUpperCase()}</Button>
         </div>
     {/each}
 </div>

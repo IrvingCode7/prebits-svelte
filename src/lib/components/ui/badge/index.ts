@@ -3,7 +3,7 @@ import { type VariantProps, tv } from "tailwind-variants";
 
 export { default as Badge } from "./badge.svelte";
 export const badgeVariants = tv({
-	base: "inline-flex select-none items-center rounded-md border gap-x-1.5 py-1.5 px-4 text-sm font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2",
+	base: "inline-flex select-none items-center rounded-md border gap-x-1 py-1 px-4 text-sm font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2",
 	variants : {
 		variant : {
 			solid : 'dark:bg-white dark:text-neutral-800',
@@ -77,12 +77,12 @@ export const badgeVariants = tv({
         {
             variant: 'outline',
             color: 'red',
-            class: 'border border-red-500 text-red-500 dark:border-neutral-200 dark:text-white rounded-full dark:bg-white dark:text-neutral-800 max-w-40 truncate whitespace-nowrap inline-block'
+            class: 'border border-red-500 text-red-500 dark:border-neutral-200 dark:text-white dark:bg-white dark:text-neutral-800 max-w-40 truncate whitespace-nowrap inline-block'
         },
         {
             variant: 'outline',
             color: 'blue',
-            class: 'border border-blue-500 text-blue-500 dark:border-neutral-200 dark:text-white rounded-full dark:bg-white dark:text-neutral-800 max-w-40 truncate whitespace-nowrap inline-block'
+            class: 'border border-blue-500 text-blue-500 dark:border-neutral-200 dark:text-white dark:bg-white dark:text-neutral-800 max-w-40 truncate whitespace-nowrap inline-block'
         },
         {
             variant: 'outline',

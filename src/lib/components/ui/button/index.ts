@@ -102,7 +102,7 @@ const buttonVariants = tv({
 		{
 			variant: 'soft',
 			color: 'white',
-			class: 'border-transparent bg-white/10 text-gray-500 hover:bg-white/20'
+			class: 'border-gray-200 bg-white/10 text-gray-500 hover:bg-gray-100'
 		},
 		{
 			variant: 'outline',
@@ -114,7 +114,7 @@ const buttonVariants = tv({
 			variant: 'outline',
 			color: 'blue',
 			class:
-				'border-blue-600 text-blue-600 hover:border-blue-500 hover:text-blue-500 dark:border-blue-500 dark:text-blue-500 dark:hover:text-blue-400 dark:hover:border-blue-400'
+				'border-gray-200 text-blue-600 hover:border-blue-600 hover:text-blue-600 dark:border-blue-600 dark:text-blue-500 dark:hover:text-blue-400 dark:hover:border-blue-400'
 		},
 		{
 			variant: 'outline',
@@ -130,6 +130,11 @@ const buttonVariants = tv({
 			variant: 'outline',
 			color: 'yellow',
 			class: 'border-yellow-500 text-yellow-500 hover:border-yellow-400 hover:text-yellow-400'
+		},
+		{
+			variant: 'outline',
+			color: 'white',
+			class: 'border-gray-200 hover:border-gray-600'
 		},
 		{
 			variant: 'ghost',

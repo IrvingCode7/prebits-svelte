@@ -6,10 +6,10 @@
 
 <div>    
    
-    <Button variant='soft' color='yellow' size='sm'>
+    <Button variant='soft' color='white' size='sm'>
         Notifications
         <Badge variant='solid' rounded color='red'>
-            56
+            5
         </Badge> 
     </Button>   
      

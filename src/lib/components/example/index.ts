@@ -74,13 +74,61 @@ export const Index = {
 			files: ['./alert/soft-color.svelte'],
 			raw: () => import('./alert/soft-color.svelte?raw').then((m) => m.default)
 		},
+		'alert-bordered': {
+			name: 'alert-bordered',
+			type: 'components:example',
+			registryDependencies: ['alert'],
+			component: () => import('./alert/alert-bordered.svelte').then((m) => m.default),
+			files: ['./alert/alert-bordered.svelte'],
+			raw: () => import('./alert/alert-bordered.svelte?raw').then((m) => m.default)
+		},
 		'alert-outline': {
-			name: 'soft-color',
+			name: 'alert-outline',
 			type: 'components:example',
 			registryDependencies: ['alert'],
 			component: () => import('./alert/alert-outline.svelte').then((m) => m.default),
 			files: ['./alert/alert-outline.svelte'],
 			raw: () => import('./alert/alert-outline.svelte?raw').then((m) => m.default)
+		},
+		'alert-description': {
+			name: 'alert-description',
+			type: 'components:example',
+			registryDependencies: ['alert'],
+			component: () => import('./alert/alert-description.svelte').then((m) => m.default),
+			files: ['./alert/alert-description.svelte'],
+			raw: () => import('./alert/alert-description.svelte?raw').then((m) => m.default)
+		},
+		'alert-list': {
+			name: 'alert-list',
+			type: 'components:example',
+			registryDependencies: ['alert'],
+			component: () => import('./alert/alert-list.svelte').then((m) => m.default),
+			files: ['./alert/alert-list.svelte'],
+			raw: () => import('./alert/alert-list.svelte?raw').then((m) => m.default)
+		},
+		'alert-action': {
+			name: 'alert-action',
+			type: 'components:example',
+			registryDependencies: ['alert'],
+			component: () => import('./alert/alert-action.svelte').then((m) => m.default),
+			files: ['./alert/alert-action.svelte'],
+			raw: () => import('./alert/alert-action.svelte?raw').then((m) => m.default)
+		},
+		'alert-link-right': {
+			name: 'alert-link-right',
+			type: 'components:example',
+			registryDependencies: ['alert'],
+			component: () => import('./alert/alert-link-right.svelte').then((m) => m.default),
+			files: ['./alert/alert-link-right.svelte'],
+			raw: () => import('./alert/alert-link-right.svelte?raw').then((m) => m.default)
+		},
+		'alert-discovery': {
+			name: 'alert-discovery',
+			type: 'components:example',
+			registryDependencies: ['alert'],
+			component: () => import('./alert/alert-discovery.svelte').then((m) => m.default),
+			files: ['./alert/alert-discovery.svelte'],
+			raw: () => import('./alert/alert-discovery.svelte?raw').then((m) => m.default)
 		}
 	},
 	alert_dialog: {
@@ -166,6 +214,63 @@ export const Index = {
 			files: ['./button/button-pilled.svelte'],
 			raw: () => import('./button/button-pilled.svelte?raw').then((m) => m.default)
 		},
+		'button-block': {
+			name: 'button-block',
+			type: 'components:example',
+			registryDependencies: ['button'],
+			component: () => import('./button/button-block.svelte').then((m) => m.default),
+			files: ['./button/button-block.svelte'],
+			raw: () => import('./button/button-block.svelte?raw').then((m) => m.default)
+		},
+		'button-icon': {
+			name: 'button-icon',
+			type: 'components:example',
+			registryDependencies: ['button'],
+			component: () => import('./button/button-icon.svelte').then((m) => m.default),
+			files: ['./button/button-icon.svelte'],
+			raw: () => import('./button/button-icon.svelte?raw').then((m) => m.default)
+		},
+		'button-fixed': {
+			name: 'button-fixed',
+			type: 'components:example',
+			registryDependencies: ['button'],
+			component: () => import('./button/button-fixed.svelte').then((m) => m.default),
+			files: ['./button/button-fixed.svelte'],
+			raw: () => import('./button/button-fixed.svelte?raw').then((m) => m.default)
+		},
+		'button-icon-size': {
+			name: 'button-icon-size',
+			type: 'components:example',
+			registryDependencies: ['button'],
+			component: () => import('./button/button-icon-size.svelte').then((m) => m.default),
+			files: ['./button/button-icon-size.svelte'],
+			raw: () => import('./button/button-icon-size.svelte?raw').then((m) => m.default)
+		},
+		'button-loading': {
+			name: 'button-loading',
+			type: 'components:example',
+			registryDependencies: ['button'],
+			component: () => import('./button/button-loading.svelte').then((m) => m.default),
+			files: ['./button/button-loading.svelte'],
+			raw: () => import('./button/button-loading.svelte?raw').then((m) => m.default)
+		},
+		'button-disabled': {
+			name: 'button-disabled',
+			type: 'components:example',
+			registryDependencies: ['button'],
+			component: () => import('./button/button-disabled.svelte').then((m) => m.default),
+			files: ['./button/button-disabled.svelte'],
+			raw: () => import('./button/button-disabled.svelte?raw').then((m) => m.default)
+		},
+		'button-example': {
+			name: 'button-example',
+			type: 'components:example',
+			registryDependencies: ['button'],
+			component: () => import('./button/button-example.svelte').then((m) => m.default),
+			files: ['./button/button-example.svelte'],
+			raw: () => import('./button/button-example.svelte?raw').then((m) => m.default)
+		},
+		
 	},
 	input: {
 		'input-basic': {

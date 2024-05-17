@@ -5,8 +5,10 @@
 </script>
 
 
-{#each sizes as size}
-    <div>
+<div class="flex space-x-2">
+    {#each sizes as size}
+      <div>
         <Button variant='solid' color='blue' {size}>Button</Button>
-    </div>
-{/each}
+      </div>
+    {/each}
+</div>

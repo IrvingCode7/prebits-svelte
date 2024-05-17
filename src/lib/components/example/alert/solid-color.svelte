@@ -1,7 +1,7 @@
 <script lang="ts">
   import * as Alert from '$lib/components/ui/alert';
 
-  const colors = ['gray', 'blue', 'teal', 'red', 'yellow', 'white'];
+  const colors = ['black','gray', 'blue', 'teal', 'red', 'yellow', 'white'];
 
   const items = colors.map(colors => ({
       colors: colors as Alert.Color, 
@@ -10,13 +10,15 @@
   }));
 </script>
 
-{#each items as { colors, title, description }}
-  <div>
+<div class="flex flex-col w-full">
+  {#each items as { colors, title, description }}
+    <div class='mb-1'>
       <Alert.Root variant='solid' color={colors}>
           <Alert.Title>{title}</Alert.Title>
           <Alert.Description>{description}</Alert.Description>
       </Alert.Root>
-  </div>
-{/each}
+    </div>
+  {/each}
+</div>
 
   

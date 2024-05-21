@@ -3,6 +3,6 @@
   </script>
    
   <Popover.Root>
-    <Popover.Trigger>Open</Popover.Trigger>
+    <Popover.Trigger class='text-red-500'>Open</Popover.Trigger>
     <Popover.Content>Place content for the popover here.</Popover.Content>
   </Popover.Root>

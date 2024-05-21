@@ -214,6 +214,16 @@ export const docsConfig: DocsConfig = {
 					items: []
 				},
 				{
+					title: 'Lists',
+					href: '/docs/components/lists',
+					items: []
+				},
+				{
+					title: 'List-Group',
+					href: '/docs/components/list-group',
+					items: []
+				},
+				{
 					title: 'Menubar',
 					href: '/docs/components/menubar',
 					items: []
@@ -319,7 +329,7 @@ export const docsConfig: DocsConfig = {
 					title: 'Tooltip',
 					href: '/docs/components/tooltip',
 					items: []
-				}
+				},
 			]
 		}
 	]

@@ -6,7 +6,7 @@ import * as Card from "$lib/components/ui/card";
 
 <Card.Root>
   <Card.Header class="max-w-xs">
-    <Card.Title>Card Title</Card.Title>
+    <Card.Title class='p-4'>Card Title</Card.Title>
     <Card.Title class='text-sm mt-0.5 text-gray-500'>CARD SUBTITLE</Card.Title>
     <Card.Description class="mt-0.5 text-gray-500 dark:text-neutral-400">
       Some quick example text to build on the card title 

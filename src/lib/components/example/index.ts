@@ -921,5 +921,129 @@ export const Index = {
 			files: ['./avatar/avatar-tooltip.svelte'],
 			raw: () => import('./avatar/avatar-tooltip.svelte?raw').then((m) => m.default)
 		},
-	}
+	},
+	list_group: {
+		'list-basic': {
+			name: 'list-basic',
+			type: 'components:example',
+			registryDependencies: ['list-group'],
+			component: () => import('./list-group/list-basic.svelte').then((m) => m.default),
+			files: ['./list-group/list-basic.svelte'],
+			raw: () => import('./list-group/list-basic.svelte?raw').then((m) => m.default)
+		},
+		'list-icon': {
+			name: 'list-icon',
+			type: 'components:example',
+			registryDependencies: ['list-group'],
+			component: () => import('./list-group/list-icon.svelte').then((m) => m.default),
+			files: ['./list-group/list-icon.svelte'],
+			raw: () => import('./list-group/list-icon.svelte?raw').then((m) => m.default)
+		},
+		'list-links': {
+			name: 'list-links',
+			type: 'components:example',
+			registryDependencies: ['list-group'],
+			component: () => import('./list-group/list-links.svelte').then((m) => m.default),
+			files: ['./list-group/list-links.svelte'],
+			raw: () => import('./list-group/list-links.svelte?raw').then((m) => m.default)
+		},
+		'list-button': {
+			name: 'list-button',
+			type: 'components:example',
+			registryDependencies: ['list-group'],
+			component: () => import('./list-group/list-button.svelte').then((m) => m.default),
+			files: ['./list-group/list-button.svelte'],
+			raw: () => import('./list-group/list-button.svelte?raw').then((m) => m.default)
+		},
+		'list-striped': {
+			name: 'list-striped',
+			type: 'components:example',
+			registryDependencies: ['list-group'],
+			component: () => import('./list-group/list-striped.svelte').then((m) => m.default),
+			files: ['./list-group/list-striped.svelte'],
+			raw: () => import('./list-group/list-striped.svelte?raw').then((m) => m.default)
+		},
+		'list-flush': {
+			name: 'list-flush',
+			type: 'components:example',
+			registryDependencies: ['list-group'],
+			component: () => import('./list-group/list-flush.svelte').then((m) => m.default),
+			files: ['./list-group/list-flush.svelte'],
+			raw: () => import('./list-group/list-flush.svelte?raw').then((m) => m.default)
+		},
+		'list-no-gutters': {
+			name: 'list-no-gutters',
+			type: 'components:example',
+			registryDependencies: ['list-group'],
+			component: () => import('./list-group/list-no-gutters.svelte').then((m) => m.default),
+			files: ['./list-group/list-no-gutters.svelte'],
+			raw: () => import('./list-group/list-no-gutters.svelte?raw').then((m) => m.default)
+		},
+		'list-horizontal': {
+			name: 'list-horizontal',
+			type: 'components:example',
+			registryDependencies: ['list-group'],
+			component: () => import('./list-group/list-horizontal.svelte').then((m) => m.default),
+			files: ['./list-group/list-horizontal.svelte'],
+			raw: () => import('./list-group/list-horizontal.svelte?raw').then((m) => m.default)
+		},
+		'list-badge': {
+			name: 'list-badge',
+			type: 'components:example',
+			registryDependencies: ['list-group'],
+			component: () => import('./list-group/list-badge.svelte').then((m) => m.default),
+			files: ['./list-group/list-badge.svelte'],
+			raw: () => import('./list-group/list-badge.svelte?raw').then((m) => m.default)
+		},
+		'list-invoice': {
+			name: 'list-invoice',
+			type: 'components:example',
+			registryDependencies: ['list-group'],
+			component: () => import('./list-group/list-invoice.svelte').then((m) => m.default),
+			files: ['./list-group/list-invoice.svelte'],
+			raw: () => import('./list-group/list-invoice.svelte?raw').then((m) => m.default)
+		},
+		'list-example': {
+			name: 'list-example',
+			type: 'components:example',
+			registryDependencies: ['list-group'],
+			component: () => import('./list-group/list-example.svelte').then((m) => m.default),
+			files: ['./list-group/list-example.svelte'],
+			raw: () => import('./list-group/list-example.svelte?raw').then((m) => m.default)
+		},
+	},
+	lists: {
+		'lists-types': {
+			name: 'lists-types',
+			type: 'components:example',
+			registryDependencies: ['lists'],
+			component: () => import('./lists/lists-types.svelte').then((m) => m.default),
+			files: ['./lists/lists-types.svelte'],
+			raw: () => import('./lists/lists-types.svelte?raw').then((m) => m.default)
+		},
+		'lists-marker': {
+			name: 'lists-marker',
+			type: 'components:example',
+			registryDependencies: ['lists'],
+			component: () => import('./lists/lists-marker.svelte').then((m) => m.default),
+			files: ['./lists/lists-marker.svelte'],
+			raw: () => import('./lists/lists-marker.svelte?raw').then((m) => m.default)
+		},
+		'lists-separator': {
+			name: 'lists-separator',
+			type: 'components:example',
+			registryDependencies: ['lists'],
+			component: () => import('./lists/lists-separator.svelte').then((m) => m.default),
+			files: ['./lists/lists-separator.svelte'],
+			raw: () => import('./lists/lists-separator.svelte?raw').then((m) => m.default)
+		},
+		'lists-checked': {
+			name: 'lists-checked',
+			type: 'components:example',
+			registryDependencies: ['lists'],
+			component: () => import('./lists/lists-checked.svelte').then((m) => m.default),
+			files: ['./lists/lists-checked.svelte'],
+			raw: () => import('./lists/lists-checked.svelte?raw').then((m) => m.default)
+		},
+	},
 };

@@ -4,7 +4,7 @@
   </script>
 
 <Card.Root class="max-w-xs">
-    <Card.Title class="p-2"> 
+    <Card.Title class="p-4"> 
         Card Title</Card.Title>
     <Card.Description class="p-2 text-gray-500 dark:text-neutral-400">
         With supporting text below as a natural lead-in to additional content.

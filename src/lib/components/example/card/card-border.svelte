@@ -5,9 +5,9 @@
 
 
 <Card.Root class="max-w-xs flex flex-col border border-t-4 border-t-blue-600 shadow-sm rounded-xl">
-    <Card.Title class="p-4 md:p-5 text-lg font-bold text-gray-800 dark:text-white"> 
+    <Card.Title class="md:p-3 text-lg font-bold text-gray-800 dark:text-white"> 
         Card Title</Card.Title>
-    <Card.Description class="p-4 mt-2 text-gray-500 dark:text-neutral-400">
+    <Card.Description class="p-2 text-gray-500 dark:text-neutral-400">
         With supporting text below as a natural lead-in to additional content.
     </Card.Description>
     <Button variant='link' color='blue'>

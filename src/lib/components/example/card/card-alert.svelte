@@ -12,11 +12,11 @@
     <Card.Title class="bg-gray-100 border-b border-gray-200 text-sm p-4">
       <span class="font-bold">Attention needed!</span> This is an alert box.
     </Card.Title>
-    <Card.Description class="p-4 md:p-5">
+    <Card.Description class="p-2 md:p-3">
       <h3 class="text-lg font-bold text-gray-800 dark:text-white">
         Card title
       </h3>
-      <p class="mt-2 text-gray-500 dark:text-neutral-400">
+      <p class="mt-4 text-gray-500 dark:text-neutral-400">
         Some quick example text to build on the card title 
         and make up the bulk of the card's content.
       </p>

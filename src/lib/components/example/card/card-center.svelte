@@ -5,10 +5,10 @@
 
 <Card.Root >
     <Card.Content class="flex flex-auto flex-col justify-center items-center p-4 md:p-5">
-      <Card.Title>
+      <Card.Title class='mt-4'>
         Card title
       </Card.Title>
-      <Card.Description class="mt-2 text-gray-500 dark:text-neutral-400">
+      <Card.Description class="mt-4 text-gray-500 text-center dark:text-neutral-400">
         Some quick example text to build on the card title 
         and make up the bulk of the card's content.
       </Card.Description>

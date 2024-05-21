@@ -7,7 +7,7 @@
     <Card.Root>
         <Card.Header class='w-full relative rounded-t-xl' style="background-image: url('https://images.unsplash.com/photo-1680868543815-b8666dba60f7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWgelHx8fGVufDB8fHx8&auto=format&fit=crop&w=2532&q=80'); background-size: cover;">
             <div class="rounded-t-xl text-gray-600">
-                <Card.Title class="p-4">Card Title</Card.Title>
+                <Card.Title class=" pd-4 font-bold mt-4">Card Title</Card.Title>
                 <Card.Description>
                     Some quick example text to build on the 
                     card title and make up the bulk of the card's content.

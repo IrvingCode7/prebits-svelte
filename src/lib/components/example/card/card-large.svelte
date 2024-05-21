@@ -7,7 +7,6 @@
 <Card.Root>
     <Card.Header class="max-w-xs">
       <Card.Title class='p-4'>CARD TITLE</Card.Title>
-      <Card.Title class='p-4 text-sm mt-1 text-gray-500'>CARD SUBTITLE</Card.Title>
       <Card.Description class="mt-1 text-gray-500 dark:text-neutral-400">
         Some quick example text to build on the card title 
         and make up the bulk of the card's content.

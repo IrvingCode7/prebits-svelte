@@ -7,7 +7,7 @@
   <AlertDialog.Trigger asChild let:builder>
     <Button builders={[builder]} variant="outline">Show Dialog</Button>
   </AlertDialog.Trigger>
-  <AlertDialog.Content>
+  <AlertDialog.Content class="fixed top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
     <AlertDialog.Header>
       <AlertDialog.Title>Are you absolutely sure?</AlertDialog.Title>
       <AlertDialog.Description>
@@ -21,3 +21,4 @@
     </AlertDialog.Footer>
   </AlertDialog.Content>
 </AlertDialog.Root>
+
